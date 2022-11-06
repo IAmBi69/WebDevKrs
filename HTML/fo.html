@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Stuff</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="neal"><strong>Username : </strong></label>
+        <input type="text" 
+        id="neal" 
+        placeholder="Enter your full name here"
+        required>
+        <label for="new"><strong>Password : </strong></label>
+        <input type="password" 
+        id="new" 
+        placeholder="Enter your alphanumeric password here and special characters"
+        required>
+        <br>
+
+        <label><Strong>Gender</Strong></label>
+        <input type="radio" name="r1">Male
+        <input type="radio" name="r1">Female
+        <input type="radio" name="r1">Non-Binary
+        <br>
+        
+        <label for="food">Favorite food : </label>
+        <select id="food">
+            <option>Indian</option>
+            <option>Chinese</option>
+        </select>
+        <label for="y1">Which year</label>
+        <select id="y1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        <br>
+        <label for="addr">Address</label>
+        <textarea
+        id="addr" 
+        cols="30" 
+        rows="10"
+        placeholder="Enter address here"
+        required></textarea>
+        <br>
+        <br>
+        <label for="">Phone</label>
+        <input type="number" idea>
+        <br>
+        <br>
+        <label>Educational Qualifications : </label>
+        <input type="checkbox" name="c1">Grade 10
+        <input type="checkbox" name="c1">Grade 12
+        <input type="checkbox" name="c1">Graduate
+        <br>
+        <button type="submit" onclick="alert('Hemlo')">Save changes</button>
+        <button type="reset" onclick="alert('cleared all')">clear</button>
+        </fieldset>
+    </form>
+</body>
+</html>
